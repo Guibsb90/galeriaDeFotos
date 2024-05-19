@@ -16,6 +16,6 @@ $(document).ready(function(){
         $(novoItem).appendTo('ul');
         $(novoItem).fadeIn();
         $('#endereco-imagem-nova').val('')
-
+        console.log(enderecoDaNovaImagem)
   })
 })
